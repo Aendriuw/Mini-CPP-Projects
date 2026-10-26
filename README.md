@@ -30,3 +30,17 @@ g++ -std=c++20 -Wall -Wextra -o classB classB.cpp
 ./classA
 ./classB
 ```
+
+## F3
+- Takes lines from a "./in.txt" file and writes lines that only contain a number and no other garbage characters into a "./out.txt" file.
+- The focus here was on line parsing safely, optional types, packing a C API with RAII and filesystem work.
+
+### Build
+```bash
+g++ -std=c++20 -Wall -Wextra -o main main.cpp
+```
+
+### Run
+```bash
+./main
+```
